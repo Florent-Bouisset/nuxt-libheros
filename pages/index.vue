@@ -1,9 +1,10 @@
 <template>
   <div class="">
     <article class="px-16">
+      <p><strong>Bienvenue sur Libhéros,</strong></p>
       <p>
-        Bienvenue sur Libhéros, votre plateforme e-santé dédiée à la recherche
-        de médicaments en stock dans les pharmacies proches de chez vous.
+        Votre plateforme e-santé dédiée à la recherche de médicaments en stock
+        dans les pharmacies proches de chez vous.
       </p>
       <p>
         Avec Libhéros, vous pouvez facilement trouver les médicaments dont vous

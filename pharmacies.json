@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "EURL Pharmacie du Carreau du temple",
+    "road": "191 rue du Temple",
+    "zipCode": "75003",
+    "phone": null,
+    "image": "https://www.pagesjaunes.fr/media/ugc/pharmacie_du_carreau_du_temple_07505600_184409698"
+  },
+  {
+    "id": "2",
+    "name": "EURL Pharmacie du cirque d'hiver",
+    "road": "4 boulevard du Temple",
+    "zipCode": "75011",
+    "phone": "0147002411",
+    "image": "https://lh3.googleusercontent.com/places/AAcXr8qboxHFiaghXe4A9sgPl6wc_3_-HztLIXcRB3BPurEYI7ai5Ri1An39s8vUAMOzKamTy4huyS97MkJ7h-w0mTbckzUvu1QChWc=s1600-w800"
+  },
+  {
+    "id": "3",
+    "name": "EURL Pharmacie Froux",
+    "road": "88 boulevard Diderot",
+    "zipCode": "75012",
+    "phone": "0143438205",
+    "image": "https://lh3.googleusercontent.com/places/AAcXr8rseHBNO0i4g7SFIBsg5GPDSYqHjwoOiPHLmNyCvlM6CTii4nA28UCZioMpd2BMgj40i6LDG2sdRqcs7ZY3wLdaQKg3mbJxBOQ=s1600-w800"
+  },
+  {
+    "id": "4",
+    "name": "EURL R.L.C.",
+    "road": "94 avenue de St Mande",
+    "zipCode": "75012",
+    "phone": null,
+    "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/fdrfyhqop0vdk0suq69e.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Grande pharmacie Daguerre",
+    "road": "33 rue Daguerre",
+    "zipCode": "75014",
+    "phone": "01 43 22 38 11",
+    "image": "https://www.pagesjaunes.fr/media/ugc/grande_pharmacie_daguerre_parisse_07505600_161910724?w=400&h=300"
+  },
+  {
+    "id": "6",
+    "name": "Grande pharmacie de Belleville",
+    "road": "86 boulevard de Belleville",
+    "zipCode": "75020",
+    "phone": "01 47 97 31 83",
+    "image": "https://grandepharmaciedebelleville.pharminfo.fr/static/clients/1555/images/visual/image0.jpeg"
+  },
+  {
+    "id": "7",
+    "name": "Grande pharmacie de l'arrivée",
+    "road": "6 rue de l'Arrivee",
+    "zipCode": "75015",
+    "phone": "0145486120",
+    "image": "https://www.pagesjaunes.fr/media/ugc/dahan_07505600_165311856"
+  }
+]

@@ -5,7 +5,11 @@
     <p class="text-lg text-gray-700">Libhéros</p>
     <p class="text-s text-gray-500">
       Trouvez les médicaments disponibles en pharmacie. Accès aux soins pour
-      tous. Contactez-nous pour suggestions. Merci de votre confiance !
+      tous.
+    </p>
+
+    <p class="text-s text-gray-500">
+      Contactez-nous pour suggestions. Merci de votre confiance !
     </p>
   </footer>
 </template>
