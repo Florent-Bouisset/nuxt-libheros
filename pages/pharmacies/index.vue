@@ -4,9 +4,9 @@ const { data, pending, error } = await useFetch("/api/pharmacies");
 
 <template>
   <div class="lg:w-2/4 md:w-3/4 m-auto">
-    <p class="mb-8">Liste des pharmacies:</p>
+    <p class="mb-8">Liste des pharmacies :</p>
     <p v-if="pending">Chargement...</p>
-    <p v-else-if="error" class="text-red-400">Une erreur est survenue.</p>
+    <p v-else-if="error" class="text-red-500">Une erreur est survenue.</p>
     <ul v-if="data" class="space-y-4">
       <li v-for="item in data" :index="item._id">
         <div class="border rounded-lg flex flex-col sm:flex-row">

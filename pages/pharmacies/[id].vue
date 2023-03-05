@@ -12,10 +12,10 @@ const currencyFormatter = new Intl.NumberFormat("fr-FR", {
 
 <template>
   <div class="lg:w-2/4 md:w-3/4 m-auto">
-    <p class="mb-8">Produits en stock dans cette pharmacie</p>
     <p v-if="pending">Chargement...</p>
-    <p v-else-if="error">Une erreur est survenue.</p>
+    <p v-else-if="error" class="text-red-500">Une erreur est survenue.</p>
     <template v-else>
+      <p class="mb-8">Produits en stock dans cette pharmacie :</p>
       <div class="flex flex-col sm:flex-row">
         <img
           :src="data.image"

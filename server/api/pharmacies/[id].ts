@@ -10,7 +10,16 @@ export default defineEventHandler(async (event) => {
       statusMessage: "There should be an ID",
     });
   }
-  return await db
+  const res = await db
     .collection("collection")
     .findOne<Pharmacy>({ _id: id as any });
+
+  if (!res) {
+    throw createError({
+      statusCode: 404,
+      statusMessage: "The ID does not exist",
+    });
+  }
+
+  return res;
 });
