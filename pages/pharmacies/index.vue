@@ -1,12 +1,14 @@
 <script setup>
-import PharmaciesList from "../../pharmacies.json";
+const { data, pending, error } = await useFetch("/api/pharmacies");
 </script>
 
 <template>
   <div class="lg:w-2/4 md:w-3/4 m-auto">
     <p class="mb-8">Liste des pharmacies:</p>
-    <ul class="space-y-4">
-      <li v-for="(item, key) in PharmaciesList">
+    <p v-if="pending">Chargement...</p>
+    <p v-else-if="error" class="text-red-400">Une erreur est survenue.</p>
+    <ul v-if="data" class="space-y-4">
+      <li v-for="item in data" :index="item._id">
         <div class="border rounded-lg flex flex-col sm:flex-row">
           <img
             :src="item.image"
@@ -22,7 +24,7 @@ import PharmaciesList from "../../pharmacies.json";
             <div class="block mt-4">
               <NuxtLink
                 class="px-4 py-2 bg-cyan-400 rounded-md inline-block"
-                :to="`pharmacies/${item.id}`"
+                :to="`pharmacies/${item._id}`"
               >
                 Consulter les stocks
               </NuxtLink>

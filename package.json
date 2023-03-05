@@ -1,14 +1,19 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "seedDB": "node scripts/seedDatabase.js"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
     "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "mongodb": "^5.1.0"
   }
 }

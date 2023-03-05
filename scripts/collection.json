@@ -1,5 +1,6 @@
 [
   {
+    "_id": "6404ad4106c4bd0f9e14627f",
     "name": "EURL Pharmacie du Carreau du temple",
     "road": "191 rue du Temple",
     "zipCode": "75003",
@@ -33,6 +34,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146280",
     "name": "EURL Pharmacie du cirque d'hiver",
     "road": "4 boulevard du Temple",
     "zipCode": "75011",
@@ -66,6 +68,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146281",
     "name": "EURL Pharmacie Froux",
     "road": "88 boulevard Diderot",
     "zipCode": "75012",
@@ -99,6 +102,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146282",
     "name": "EURL R.L.C.",
     "road": "94 avenue de St Mande",
     "zipCode": "75012",
@@ -132,6 +136,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146283",
     "name": "Grande pharmacie Daguerre",
     "road": "33 rue Daguerre",
     "zipCode": "75014",
@@ -165,6 +170,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146284",
     "name": "Grande pharmacie de Belleville",
     "road": "86 boulevard de Belleville",
     "zipCode": "75020",
@@ -198,6 +204,7 @@
     ]
   },
   {
+    "_id": "6404ad4106c4bd0f9e146285",
     "name": "Grande pharmacie de l'arrivée",
     "road": "6 rue de l'Arrivee",
     "zipCode": "75015",
