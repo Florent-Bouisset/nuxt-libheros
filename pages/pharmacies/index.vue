@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const { data, pending, error } = await useFetch("/api/pharmacies");
 
 useHead({

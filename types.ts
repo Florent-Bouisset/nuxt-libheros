@@ -13,3 +13,16 @@ export interface Medicament {
   stock: number;
   price: number;
 }
+
+export interface MedicationAvailability {
+  id: string;
+  name: string;
+  availability: [
+    {
+      id: string;
+      name: string;
+      price: number;
+      stock: number;
+    }
+  ];
+}
