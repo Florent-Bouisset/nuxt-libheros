@@ -1,5 +1,9 @@
 <script setup>
 const { data, pending, error } = await useFetch("/api/pharmacies");
+
+useHead({
+  title: "Pharmacies",
+});
 </script>
 
 <template>

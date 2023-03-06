@@ -3,27 +3,34 @@
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
+- Install Node version 16
+- Install Docker
 
-Make sure to install the dependencies:
+### Run the following commands:
 
+
+#### Install node dependencies
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
+#### Run the mongo database:
+```
+docker-compose up -d
+```
 
+#### Initialize the database
+```
+npm run seedDb
+```
+
+#### Start the app
 Start the development server on http://localhost:3000
 
-```bash
+```
 npm run dev
 ```
+
 
 ## Production
 

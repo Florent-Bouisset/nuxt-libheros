@@ -8,6 +8,10 @@ const currencyFormatter = new Intl.NumberFormat("fr-FR", {
   style: "currency",
   currency: "EUR",
 });
+
+useHead({
+  title: data.value.name || "Detail pharmacie",
+});
 </script>
 
 <template>

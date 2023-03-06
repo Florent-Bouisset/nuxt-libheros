@@ -1,6 +1,12 @@
+<script setup lang="ts">
+useHead({
+  title: "Accueil Libhéros",
+});
+</script>
+
 <template>
   <div class="">
-    <article class="px-16">
+    <article class="lg:px-16">
       <p><strong>Bienvenue sur Libhéros,</strong></p>
       <p>
         Votre plateforme e-santé dédiée à la recherche de médicaments en stock
