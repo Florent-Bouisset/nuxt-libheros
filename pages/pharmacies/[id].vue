@@ -10,7 +10,7 @@ const currencyFormatter = new Intl.NumberFormat("fr-FR", {
 });
 
 useHead({
-  title: data.value.name || "Detail pharmacie",
+  title: data.value?.name || "Detail pharmacie",
 });
 </script>
 
